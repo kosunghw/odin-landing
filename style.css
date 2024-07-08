@@ -58,7 +58,7 @@ ul.links {
     display: flex;
     justify-content: space-between;
     gap: 48px;
-    margin: 80px 0;
+    margin: 100px 0;
 }
 
 .main-text {
@@ -97,7 +97,7 @@ ul.links {
 .information {
     /* padding: 20px 25rem 0 25rem; */
     width: 50%;
-    margin: 40px 0 80px;
+    margin: 40px 0 100px;
 }
 
 .header {
@@ -133,4 +133,29 @@ ul.links {
 .content-text {
     width: 120px;
     text-align: center;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 50%;
+    margin: 130px 0 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    padding-right: 50px;
+    font-size: 18px;
 }
