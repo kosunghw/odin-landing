@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 0 200px;
+}
+
+header.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.secondary,
+.secondary a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary a {
+    text-decoration: none;
+}
